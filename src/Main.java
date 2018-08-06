@@ -14,6 +14,9 @@ public class Main {
      *          git add src/Main.java
      *  Для добавления всех файлов
      *      git add .
+     *  Для коммита:
+     *      git add -m "MESSAGE FOR COMMIT"
+     *
      *
      *
      */
