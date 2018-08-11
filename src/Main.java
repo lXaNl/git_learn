@@ -15,8 +15,33 @@ public class Main {
      *  Для добавления всех файлов
      *      git add .
      *  Для коммита:
-     *      git add -m "MESSAGE FOR COMMIT"
+     *      git commit -m "MESSAGE FOR COMMIT"
      *
+     *  Для клонирования репозитория
+     *      git clone <URL>
+     *          Пример:
+     *          git clone https://github.com/ruslan17/git_learn.git
+     *
+     *  Посмотреть коммиты:
+     *      git log
+     *
+     *  Посмотреть все коммиты (на всех ветках):
+     *      git log --all
+     *
+     *  Посмотреть все коммиты в виде графа:
+     *      git log --graph --all
+     *
+     *  Удалить последний коммит
+     *      git reset --hard HEAD^
+     *
+     * Переключиться на коммит:
+     *      git checkout <COMMIT_ID>
+     *
+     *  Удалить коммит:
+     *      git reset --hard <>
+     *
+     *  Добавить новую ветку
+     *      git branch <BRANCH_NAME>
      *
      *
      */
