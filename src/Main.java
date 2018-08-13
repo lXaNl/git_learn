@@ -40,7 +40,7 @@ public class Main {
      *      git checkout <COMMIT_ID>
      *
      *  Удалить коммит:
-     *      git reset --hard <>
+     *      git reset --hard <COMMIT_NAME>
      *
      *  Добавить новую ветку
      *      git branch <BRANCH_NAME>
