@@ -33,6 +33,8 @@ public class Main {
      *
      *  Удалить последний коммит
      *      git reset --hard HEAD^
+     *      git reset --hard HEAD~1 - полное удаление
+     *      git reset --soft HEAD~1 - безопасное удаление
      *
      * Переключиться на коммит:
      *      git checkout <COMMIT_ID>
@@ -42,6 +44,23 @@ public class Main {
      *
      *  Добавить новую ветку
      *      git branch <BRANCH_NAME>
+     *
+     *  Переключиться на ветку
+     *      git checkout <BRANCH_NAME>
+     *
+     *  Посмотреть ветки:
+     *      git branch
+     *
+     *  Отменить добавление файла до коммита:
+     *      git reset <FILE_NAME>
+     *
+     *  Посмотреть изменения:
+     *      git diff <FILE_NAME>
+     *
+     *  Стэш:
+     *      git stash
+     *      git pull
+     *      git stash apply
      *
      *
      */
