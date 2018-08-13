@@ -22,15 +22,45 @@ public class Main {
      *          Пример:
      *          git clone https://github.com/ruslan17/git_learn.git
      *
+     *  Посмотреть коммиты:
+     *      git log
+     *
+     *  Посмотреть все коммиты (на всех ветках):
+     *      git log --all
+     *
+     *  Посмотреть все коммиты в виде графа:
+     *      git log --graph --all
+     *
      *  Удалить последний коммит
      *      git reset --hard HEAD^
+     *      git reset --hard HEAD~1 - полное удаление
+     *      git reset --soft HEAD~1 - безопасное удаление
+     *
+     * Переключиться на коммит:
+     *      git checkout <COMMIT_ID>
      *
      *  Удалить коммит:
-     *      git reset --hard 1a581b2f19c173a9955eb76284ff0bd1370b0c4c
+     *      git reset --hard <>
      *
      *  Добавить новую ветку
      *      git branch <BRANCH_NAME>
      *
+     *  Переключиться на ветку
+     *      git checkout <BRANCH_NAME>
+     *
+     *  Посмотреть ветки:
+     *      git branch
+     *
+     *  Отменить добавление файла до коммита:
+     *      git reset <FILE_NAME>
+     *
+     *  Посмотреть изменения:
+     *      git diff <FILE_NAME>
+     *
+     *  Стэш:
+     *      git stash
+     *      git pull
+     *      git stash apply
      *
      */
 
