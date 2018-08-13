@@ -62,7 +62,6 @@ public class Main {
      *      git pull
      *      git stash apply
      *
-     *
      */
 
 }
