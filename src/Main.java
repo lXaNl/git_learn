@@ -42,14 +42,29 @@ public class Main {
      *  Удалить коммит:
      *      git reset --hard <COMMIT_NAME>
      *
+     *  Взять изменения из репозитория
+     *      git pull
+     *
+     *  Добавить изменения в репозиторий
+     *      git push
+     *
+     *  Выкачать изменения из репозитория
+     *      git pull
+     *
      *  Добавить новую ветку
      *      git branch <BRANCH_NAME>
      *
      *  Переключиться на ветку
      *      git checkout <BRANCH_NAME>
      *
+     *  Добавить новую ветку и переключиться на неё
+     *      git checkout -b <BRANCH_NAME>
+     *
      *  Посмотреть ветки:
      *      git branch
+     *
+     *  Смерджить ветки
+     *      git merge <BRANCH_NAME>
      *
      *  Отменить добавление файла до коммита:
      *      git reset <FILE_NAME>
@@ -61,6 +76,18 @@ public class Main {
      *      git stash
      *      git pull
      *      git stash apply
+     *
+     *  Изменить привязку к репозиторию
+     *      git remote set-url origin git://new.url.here
+     *
+     *  Создание нового тэга
+     *      git tag v1
+     *
+     *  Переключиться на тэг
+     *      git checkout v1
+     *
+     *  Просмотр тэгов
+     *      git tag
      *
      */
 
